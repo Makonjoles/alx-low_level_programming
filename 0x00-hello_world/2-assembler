@@ -1,0 +1,17 @@
+shme
+mandatory
+Write a script that compiles a C file and creates an executable named cisfun.
+The C file name will be saved in the variable $CFILE
+
+
+	vi 3-name
+		#!/bin/bash
+			gcc $CFILE -o cisfun
+			Execute the files
+			chmod u+x 0-preprocessor 1-compiler 2-assembler 3-name
+			git add .
+			git commit -m “Task0-3”
+			git push
+			CHECK YOUR CODES
+			: 1: unminimizegcc: not found
+gcc -S $CFILE
